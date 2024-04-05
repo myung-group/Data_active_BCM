@@ -1,7 +1,7 @@
 This repository accompanies the paper **Active Sparse Bayesian Committee Machine Potential for Isothermal-Isobaric
 Molecular Dynamics Simulations** by Soohaeng Yoo Willow, Dong Geon Kim, R. Sundheep, Amir Hajibabaei, and Chang Woo Myung.
 
-The data for plotting all of the graphs in the main text and supplementary materials can be found in the folder `Data`. The figures in the paper are in the folder 'Figures'. Notebooks in the folder 'Scripts' can reproduce Figures.
+The data for plotting all of the graphs in the main text and supplementary materials can be found in the folder `Data`. The figures in the paper are in the folder `Figures`. Notebooks in the folder `Scripts` can reproduce Figures.
 
 ## Paper abstarct
 
