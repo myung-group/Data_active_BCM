@@ -3,7 +3,7 @@ Molecular Dynamics Simulations** by Soohaeng Yoo Willow, Dong Geon Kim, R. Sundh
 
 The data for plotting all of the graphs in the main text and supplementary materials can be found in the folder `Data`. The figures in the paper are in the folder `Figures`. Notebooks in the folder `Scripts` can reproduce Figures.
 
-The trajectory files of ML MD simulation of LGPS are not uploaded to GitHub due to their large file sizes. 
+The trajectory files of ML-MD simulation of LGPS are not uploaded to GitHub due to their large file sizes. You can generate `md.traj` file through running `train-from-tape.py` in the folder `Data/MLMD_LGPS`. Before running, you have to install [AutoForce](https://github.com/amirhajibabaei/AutoForce).
 
 ## Paper abstarct
 
