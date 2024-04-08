@@ -1,0 +1,10 @@
+INCAR created by Atomic Simulation Environment
+ ENCUT = 500.000000
+ ALGO = Fast
+ GGA = PE
+ ISPIN = 1
+ NELM = 300
+ NCORE = 2
+ LCHARG = .FALSE.
+ LWAVE = .FALSE.
+ LREAL = Auto
