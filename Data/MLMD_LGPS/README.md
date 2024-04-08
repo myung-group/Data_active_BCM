@@ -1,5 +1,5 @@
 ### Introduction
-Each temperature folders has same input files `POSCAR_LPGS`, `run.sh`, `train-from-tape.py`, `calc_vasp.py`, `mpi.sh`. Only the temperature setting is different in `train-from-tape.py`. The folder `vasp` is an example of DFT setting and automatically created based on `calc_vasp.py` file contents when you running `train-from-tape.py`.
+Each temperature folders has same input files `POSCAR_LPGS`, `run.sh`, `train-from-tape.py`, `calc_vasp.py`, `mpi.sh`. Only the temperature setting is different in `train-from-tape.py`. The folder `vasp` is an example of DFT setting and automatically generated based on `calc_vasp.py` file contents when you running `train-from-tape.py`.
 
 * <ins>required</ins>: `POSCAR_LPGS`, `run.sh`, `train-from-tape.py`, `calc_vasp.py`
 * <ins>optional</ins>: `mpi.sh`
