@@ -6,7 +6,7 @@ Each temperature folders has same input files `POSCAR_LPGS`, `run.sh`, `train-fr
 
 The file `mpi.sh` contains job script information what we used. If you perform calculations under parallel computing, change it appropriately to your environment.
 
-Also, adjust how much CPU to allocate in the settings of the two files below.
+Also, adjust how many CPUs to allocate in the settings of the two files below.
 
 `calc_vasp.py`
 ```shell
