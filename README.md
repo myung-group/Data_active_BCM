@@ -3,7 +3,7 @@ Molecular Dynamics Simulations** by Soohaeng Yoo Willow, Dong Geon Kim, R. Sundh
 
 The data for plotting all of the graphs in the main text and supplementary materials can be found in the folder `Data`. The figures in the paper are in the folder `Figures`. Notebooks in the folder `Scripts` can reproduce Figures.
 
-The trajectory files of ML MD simulation of LGPS are not uploaded to GitHub due to its large file size. 
+The trajectory files of ML MD simulation of LGPS are not uploaded to GitHub due to their large file sizes. 
 
 ## Paper abstarct
 
