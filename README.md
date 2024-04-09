@@ -1,11 +1,11 @@
 This repository accompanies the paper **Active Sparse Bayesian Committee Machine Potential for Isothermal-Isobaric
 Molecular Dynamics Simulations** by Soohaeng Yoo Willow, Dong Geon Kim, R. Sundheep, Amir Hajibabaei, and Chang Woo Myung.
 
-The data for plotting all of the graphs in the main text and supplementary materials can be found in the folder `Data`. The figures in the paper are in the folder `Figures`. Notebooks in the folder `Scripts` can reproduce Figures.
+- The data for plotting all of the graphs in the main text and supplementary materials can be found in the folder `Data`. The figures in the paper are in the folder `Figures`. Notebooks in the folder `Scripts` can reproduce Figures.
 
-In the folder `Data/MLMD/BCM_ICE/MLMD` contains Python scripts for conducting acitve NVT and NPT MD simulations and non-active NPH MD simulations.
+- In the folder `Data/MLMD/BCM_ICE/MLMD` contains Python scripts for conducting acitve NVT and NPT MD simulations and non-active NPH MD simulations.
 
-The trajectory files of ML-MD simulation of LGPS are not uploaded to GitHub due to their large file sizes.<br/>
+- The trajectory files of ML-MD simulation of LGPS are not uploaded to GitHub due to their large file sizes.<br/>
 If you want to running ML-MD simulations, you have to install [AutoForce](https://github.com/amirhajibabaei/AutoForce) python package.<br/>
 You can generate `md.traj` file through running `train-from-tape.py` in the several temperature folders in `Data/MLMD/LGPS`. Using ML-MD simulation data and notebook, you can reproduce `LGPS_train.traj` and `LGPS_test.traj` which is nessesory for pressure predition in the folder `Data/pressure_prediction/LGPS_data/Autoforce-jax/TEST`. Only LGPS system shows as an example.
 
