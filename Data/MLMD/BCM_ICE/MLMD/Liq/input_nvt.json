@@ -1,8 +1,8 @@
 {
     "model_init" : true,
     "active_learning": true,
-    "ediff" : 0.08,
-    "fdiff" : 0.08,
+    "ediff" : 0.05,
+    "fdiff" : 0.05,
     "test_nstep" : 100,
     "fname_active_logfile" : "Liq/active_nvt.log",
     "model_pckl" : "Liq/model_liq.pckl",
