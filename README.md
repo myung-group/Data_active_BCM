@@ -5,8 +5,8 @@ The data for plotting all of the graphs in the main text and supplementary mater
 
 In the folder `Data/MLMD/BCM_ICE/MLMD` contains Python scripts for conducting acitve NVT and NPT MD simulations and non-active NPH MD simulations.
 
-The trajectory files of ML-MD simulation of LGPS are not uploaded to GitHub due to their large file sizes. 
-If you want to running ML-MD simulations, you have to install [AutoForce](https://github.com/amirhajibabaei/AutoForce) python package.
+The trajectory files of ML-MD simulation of LGPS are not uploaded to GitHub due to their large file sizes.<br/>
+If you want to running ML-MD simulations, you have to install [AutoForce](https://github.com/amirhajibabaei/AutoForce) python package.<br/>
 You can generate `md.traj` file through running `train-from-tape.py` in the several temperature folders in `Data/MLMD/LGPS`. Using ML-MD simulation data and notebook, you can reproduce `LGPS_train.traj` and `LGPS_test.traj` which is nessesory for pressure predition in the folder `Data/pressure_prediction/LGPS_data/Autoforce-jax/TEST`. Only LGPS system shows as an example.
 
 ## Paper abstarct
