@@ -1,5 +1,5 @@
 # AutoForce-jax
-You can reproduce `test_kv.dat`, `test_old.dat` files. Follow the instructions below and execute command.
+You can reproduce `test_kv.dat`, `test_old.dat` outputs using `LGPS_train.traj` and `LGPS_test.traj`. Follow the instructions below and execute command.
 
 1) Build a Model with a virial Kernel implemented.
 ```shell
