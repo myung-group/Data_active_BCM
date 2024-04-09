@@ -1,5 +1,7 @@
-# This directory contains python scripts for conducting NPT MD simulations for LGPS system of several temperatures.
-# Same input files `POSCAR_LPGS`, `run.sh`, `train-from-tape.py`, `calc_vasp.py` are containing each folders. Only the temperature is different in `train-from-tape.py`. The folder `vasp` is an example of VASP(DFT) setting and automatically generated based on `calc_vasp.py` parameters when you execute `run.sh`, execute the following commands:
+# NPT ML-MD simulations for LGPS
+
+This directory contains python scripts for conducting NPT MD simulations for LGPS system of several temperatures.
+Same input files `POSCAR_LPGS`, `run.sh`, `train-from-tape.py`, `calc_vasp.py` are containing each folders. Only the temperature is different in `train-from-tape.py`. The folder `vasp` is an example of VASP(DFT) setting and automatically generated based on `calc_vasp.py` parameters when you execute `run.sh`, execute the following commands:
 ```
 ./run.sh
 ```
@@ -24,5 +26,5 @@ calc = Vasp(command="mpirun -np {number_of_cpus} vasp_std", xc='pbe', ncore=2,
 mpirun -np {number_of_cpus} python train-from-tape.py 
 ```
 
-# When MLMD is performed for each temperature, DFT calculated data is stored every 500 steps at `active_FP.traj`. You can reproduce `LGPS_train.traj` and `LGPS_test.traj` by execute notebook code.
+- When MLMD is performed for each temperature, DFT calculated data is stored every 500 steps at `active_FP.traj`. You can reproduce `LGPS_train.traj` and `LGPS_test.traj` by execute notebook code.
 
