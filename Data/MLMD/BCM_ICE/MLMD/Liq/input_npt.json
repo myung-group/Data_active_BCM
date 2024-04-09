@@ -7,7 +7,7 @@
     "fname_active_logfile" : "Liq/active_npt.log",
     "model_pckl" : "Liq/model_liq.pckl",
     "model_tape" : "Liq/model_liq.sgpr",
-    "fname_atoms" : "Liq/md_npt.traj",
+    "fname_atoms" : "Liq/md_nvt.traj",
     "md" : {
         "vel_init": false,
         "dt_fs" : 0.5,
