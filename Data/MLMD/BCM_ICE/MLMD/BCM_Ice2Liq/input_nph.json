@@ -1,0 +1,19 @@
+{
+    "ediff" : 0.10,
+    "fdiff" : 0.10,
+    "test_nstep" : 500,
+    "fname_active_logfile" : "BCM_Ice2Liq/active_nph.log",
+    "model_pckl" : "BCM_Model/model_bcm.pckl",
+    "model_tape" : "BCM_Model/model_bcm.sgpr",
+    "fname_atoms" : "BCM_Ice2Liq/restart_ice2.xyz",
+    "md" : {
+        "dt_fs" : 0.5,
+        "press_GPa" : 0.2,
+        "anisotropic" : true,
+        "fname_md_traj" : "BCM_Ice2Liq/md_nph.traj",
+        "fname_md_logfile" : "BCM_Ice2Liq/md_nph.dat",
+        "md_nsave_traj" : 200,
+        "md_nprint_logfile" : 2,
+        "md_nstep" : 200000
+    }
+}

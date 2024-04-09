@@ -1,0 +1,28 @@
+{
+    "traj" : "LGPS_test.traj",
+    "pckl" : "model_train_kv.pckl",
+    "tape" : "model_train_kv.sgpr",
+    "logfile": "active_test_kv.log",
+    "fname_dat": "test_kv.dat",
+    "kernel_kw" : {"species": [3, 15, 16, 32],
+                   "lmax":3,
+                   "nmax":3,
+                   "exponent": 4,
+                   "cutoff": 6.0,
+                   "max_neigh": 80},
+    "kernel_virial" : true,
+    "ediff" : 0.10,
+    "fdiff" : 0.10,
+    "test"  : 100,
+    "active": false,
+    "bcm"   : {
+        "max_data": 20,
+        "max_inducing" : 1000
+    },
+    "socket" : {
+        "ip" : "localhost",
+        "port" : 6666,
+        "script": "mbx_calc.py"
+    },
+    "nbeads": 1
+}

@@ -1,0 +1,25 @@
+{
+    "model_init" : true,
+    "active_learning": true,
+    "ediff" : 0.08,
+    "fdiff" : 0.08,
+    "test_nstep" : 100,
+    "fname_active_logfile" : "Liq/active_nvt.log",
+    "model_pckl" : "Liq/model_liq.pckl",
+    "model_tape" : "Liq/model_liq.sgpr",
+    "fname_atoms" : "Liq/w256.xyz",
+    "md" : {
+        "vel_init": true,
+        "dt_fs" : 0.5,
+        "temperature_K" : 270.0,
+        "press_GPa" : 0.2,
+        "fixed_temperature": true,
+        "fixed_pressure" : false,
+        "anisotropic" : false,
+        "fname_md_traj" : "Liq/md_nvt.traj",
+        "fname_md_logfile" : "Liq/md_nvt.dat",
+        "md_nsave_traj" : 20,
+        "md_nprint_logfile" : 2,
+        "md_nstep" : 20000
+    }
+}

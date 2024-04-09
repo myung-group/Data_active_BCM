@@ -1,0 +1,25 @@
+{
+    "model_init" : true,
+    "active_learning": true,
+    "ediff" : 0.05,
+    "fdiff" : 0.05,
+    "test_nstep" : 100,
+    "fname_active_logfile" : "Ice3Liq/active_nvt.log",
+    "model_pckl" : "Ice3Liq/model_ice3.pckl",
+    "model_tape" : "Ice3Liq/model_ice3.sgpr",
+    "fname_atoms" : "Ice3Liq/restart_ice3.xyz",
+    "md" : {
+        "vel_init": false,
+        "dt_fs" : 0.5,
+        "temperature_K" : 250.0,
+        "press_GPa" : 0.4,
+        "fixed_temperature": true,
+        "fixed_pressure" : false,
+        "anisotropic" : true,
+        "fname_md_traj" : "Ice3Liq/md_nvt.traj",
+        "fname_md_logfile" : "Ice3Liq/md_nvt.dat",
+        "md_nsave_traj" : 200,
+        "md_nprint_logfile" : 2,
+        "md_nstep" : 20000
+    }
+}
