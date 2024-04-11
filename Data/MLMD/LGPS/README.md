@@ -1,6 +1,6 @@
 # NPT ML-MD simulations for LGPS
 
-This directory contains python scripts for conducting NPT MD simulations for LGPS system of several temperatures using the Vienna Ab-initio Simulation Package(VASP) at the Perdew–Burke–Ernzerhof (PBE) functional level to train the SGPR potential.
+This directory contains python scripts for conducting NPT ML-MD simulations for LGPS system of several temperatures.
 Same input files `POSCAR_LPGS`, `run.sh`, `train-from-tape.py`, `calc_vasp.py` are containing each folders. Only the temperature is different in `train-from-tape.py`. The folder `vasp` is an example of VASP(DFT) setting and automatically generated based on `calc_vasp.py` parameters when you execute `run.sh`. To build ML models via NPT MD simulations, execute the following commands:
 ```
 ./run.sh
